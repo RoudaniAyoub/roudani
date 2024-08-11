@@ -1,0 +1,47 @@
+
+---Downloaded files---
+The import files for: Import Jenna were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/AyoubRoudani
+Data file = C:\xampp\htdocs\AyoubRoudani/wp-content/themes/jenna/sample-data/contents-demo.xml
+Widget file = C:\xampp\htdocs\AyoubRoudani/wp-content/themes/jenna/sample-data/widget-settings.json
+Customizer file = C:\xampp\htdocs\AyoubRoudani/wp-content/themes/jenna/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+Search - No Title - Imported
+ Recent Posts - No Title - Imported
+Categories - No Title - Imported
+Tag Cloud - No Title - Imported
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file.
+
+---ocdi/after_import---
+

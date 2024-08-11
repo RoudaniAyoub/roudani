@@ -1,0 +1,129 @@
+0000.057 (R) [notice] Looking for db archive: file name: backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-db.gz
+0000.058 (R) [notice] Archive is expected to be size: 587.7 KB: OK
+0000.062 (R) [notice] Looking for plugins archive: file name: backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-plugins.zip
+0000.063 (R) [notice] Archive is expected to be size: 20126.8 KB: OK
+0000.065 (R) [notice] Looking for themes archive: file name: backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-themes.zip
+0000.066 (R) [notice] Archive is expected to be size: 29390 KB: OK
+0000.069 (R) [notice] Looking for uploads archive: file name: backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-uploads.zip
+0000.070 (R) [notice] Archive is expected to be size: 24783.3 KB: OK
+0000.072 (R) [notice] Looking for others archive: file name: backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-others.zip
+0000.073 (R) [notice] Archive is expected to be size: 0.6 KB: OK
+0000.075 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.079 (R) [notice] Unpacking backup... (backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-db.gz, 0.6 Mb)
+0000.083 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.230 (R) [notice] Enabling Maintenance mode&#8230;
+0000.283 (R) [notice] Backup of: http://localhost/AyoubRoudani
+0000.305 (R) [notice] Content URL: http://localhost/AyoubRoudani/wp-content
+0000.305 (R) [notice] Uploads URL: http://localhost/AyoubRoudani/wp-content/uploads
+0000.305 (R) [notice] Old table prefix: rdn_
+0000.305 (R) [notice] Old ABSPATH: C:\xampp\htdocs\AyoubRoudani/
+0000.305 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.306 (R) [notice] Site information: multisite = 0
+0000.306 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.307 (R) [notice] New table prefix: w0_
+0000.311 (R) [notice] Processing table (InnoDB):  rdn_options - will restore as: w0_options
+0000.554 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.564 (R) [notice] Atomic restore: renaming new table (w0_options) to final table name (wp_options)
+0001.022 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0001.040 (R) [notice] Search and replacing table: wp_options: rows: 322
+0001.126 (R) [notice] Processing table (InnoDB):  rdn_users - will restore as: w0_users
+0001.163 (R) [notice] Atomic restore: dropping original table (wp_users)
+0001.170 (R) [notice] Atomic restore: renaming new table (w0_users) to final table name (wp_users)
+0001.197 (R) [notice] Search and replacing table: wp_users: rows: 1
+0001.200 (R) [notice] Processing table (InnoDB):  rdn_usermeta - will restore as: w0_usermeta
+0001.240 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0001.247 (R) [notice] Atomic restore: renaming new table (w0_usermeta) to final table name (wp_usermeta)
+0001.258 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0001.276 (R) [notice] Search and replacing table: wp_usermeta: rows: 28
+0001.278 (R) [notice] Processing table (InnoDB):  rdn_commentmeta - will restore as: w0_commentmeta
+0001.314 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0001.320 (R) [notice] Atomic restore: renaming new table (w0_commentmeta) to final table name (wp_commentmeta)
+0001.348 (R) [notice] Search and replacing table: wp_commentmeta: rows: 9
+0001.349 (R) [notice] Processing table (InnoDB):  rdn_comments - will restore as: w0_comments
+0001.517 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0001.525 (R) [notice] Atomic restore: renaming new table (w0_comments) to final table name (wp_comments)
+0001.552 (R) [notice] Search and replacing table: wp_comments: rows: 10
+0001.553 (R) [notice] Processing table (InnoDB):  rdn_links - will restore as: w0_links
+0001.621 (R) [notice] Atomic restore: dropping original table (wp_links)
+0001.632 (R) [notice] Atomic restore: renaming new table (w0_links) to final table name (wp_links)
+0001.657 (R) [notice] Search and replacing table: wp_links: rows: 0
+0001.658 (R) [notice] Processing table (InnoDB):  rdn_postmeta - will restore as: w0_postmeta
+0001.905 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0001.913 (R) [notice] Atomic restore: renaming new table (w0_postmeta) to final table name (wp_postmeta)
+0001.945 (R) [notice] Search and replacing table: wp_postmeta: rows: 132
+0002.462 (R) [notice] Processing table (InnoDB):  rdn_posts - will restore as: w0_posts
+0002.812 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0002.825 (R) [notice] Atomic restore: renaming new table (w0_posts) to final table name (wp_posts)
+0002.851 (R) [notice] Search and replacing table: wp_posts: rows: 226
+0003.165 (R) [notice] Processing table (InnoDB):  rdn_term_relationships - will restore as: w0_term_relationships
+0003.205 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0003.213 (R) [notice] Atomic restore: renaming new table (w0_term_relationships) to final table name (wp_term_relationships)
+0003.222 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0003.222 (R) [notice] Processing table (InnoDB):  rdn_term_taxonomy - will restore as: w0_term_taxonomy
+0003.267 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0003.276 (R) [notice] Atomic restore: renaming new table (w0_term_taxonomy) to final table name (wp_term_taxonomy)
+0003.303 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 29
+0003.304 (R) [notice] Processing table (InnoDB):  rdn_termmeta - will restore as: w0_termmeta
+0003.337 (R) [notice] Database queries processed: 50 in 3.25 seconds
+0003.338 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0003.347 (R) [notice] Atomic restore: renaming new table (w0_termmeta) to final table name (wp_termmeta)
+0003.375 (R) [notice] Search and replacing table: wp_termmeta: rows: 0
+0003.375 (R) [notice] Processing table (InnoDB):  rdn_terms - will restore as: w0_terms
+0003.424 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0003.431 (R) [notice] Atomic restore: renaming new table (w0_terms) to final table name (wp_terms)
+0003.457 (R) [notice] Search and replacing table: wp_terms: rows: 29
+0003.458 (R) [notice] Processing table (InnoDB):  rdn_e_events - will restore as: w0_e_events
+0003.498 (R) [notice] Disabling Maintenance mode&#8230;
+0003.498 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0003.499 (R) [notice] Atomic restore: renaming new table (w0_e_events) to final table name (wp_e_events)
+0003.525 (R) [notice] Search and replacing table: wp_e_events: rows: 2
+0003.528 (R) [notice] Finished: lines processed: 59 in 3.44 seconds
+0003.529 (R) [notice] Cleaning up rubbish...
+0003.532 (R) [notice] Database search and replace: replace http://localhost/AyoubRoudani in backup dump with http://localhost/roudani
+0003.532 (R) [notice] Database search and replace: replace http://www.localhost/AyoubRoudani in backup dump with http://localhost/roudani
+0003.532 (R) [notice] Database search and replace: replace https://www.localhost/AyoubRoudani in backup dump with http://localhost/roudani
+0003.532 (R) [notice] Database search and replace: replace https://localhost/AyoubRoudani in backup dump with http://localhost/roudani
+0003.533 (R) [notice] Database search and replace: replace C:\xampp\htdocs\AyoubRoudani in backup dump with C:\xampp\htdocs\roudani
+0003.533 (R) [notice] Search and replacing table: wp_commentmeta: already done
+0003.534 (R) [notice] Search and replacing table: wp_comments: already done
+0003.534 (R) [notice] Search and replacing table: wp_e_events: already done
+0003.534 (R) [notice] Search and replacing table: wp_links: already done
+0003.534 (R) [notice] Search and replacing table: wp_options: already done
+0003.534 (R) [notice] Search and replacing table: wp_postmeta: already done
+0003.534 (R) [notice] Search and replacing table: wp_posts: already done
+0003.534 (R) [notice] Search and replacing table: wp_term_relationships: already done
+0003.535 (R) [notice] Search and replacing table: wp_term_taxonomy: already done
+0003.535 (R) [notice] Search and replacing table: wp_termmeta: already done
+0003.535 (R) [notice] Search and replacing table: wp_terms: already done
+0003.535 (R) [notice] Search and replacing table: wp_usermeta: already done
+0003.535 (R) [notice] Search and replacing table: wp_users: already done
+0003.556 (R) [notice] Search and replacing table: wp_simply_static_pages: rows: 886
+0003.605 (R) [notice] Tables examined: 13
+0003.605 (R) [notice] Rows examined: 1674
+0003.605 (R) [notice] Changes made: 164
+0003.605 (R) [notice] SQL update commands run: 164
+0003.605 (R) [notice] Errors: 0
+0003.605 (R) [notice] Time taken (seconds): 1.211
+0003.646 (R) [notice] Unpacking backup... (backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-plugins.zip, 19.7 MB)
+0005.206 (R) [notice] Unzip progress: 1002 out of 4162 files (4.5 MB, plugins/elementor/assets/css/widget-image-rtl.min.css)
+0016.075 (R) [notice] Unzip progress: 2003 out of 4162 files (37.5 MB, plugins/insert-headers-and-footers/includes/global-output.php)
+0029.398 (R) [notice] Unzip progress: 3004 out of 4162 files (48.4 MB, plugins/updraftplus/images/addons-images/reporting.png)
+0040.617 (R) [notice] Unzip progress: 4005 out of 4162 files (69.9 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Resource/PersistentResource.php)
+0043.748 (R) [notice] Unzip progress: 4162 out of 4162 files (70.9 MB, plugins/wp-maximum-execution-time-exceeded/wp-maximum-execution-time-exceeded.php)
+0043.754 (R) [notice] Moving old data out of the way...
+0046.732 (R) [notice] Moving unpacked backup into place...
+0048.160 (R) [notice] Cleaning up rubbish...
+0048.182 (R) [notice] Unpacking backup... (backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-themes.zip, 28.7 MB)
+0049.445 (R) [notice] Unzip progress: 517 out of 517 files (38.9 MB, themes/twentytwentytwo/templates/single.html)
+0049.452 (R) [notice] Moving old data out of the way...
+0049.603 (R) [notice] Moving unpacked backup into place...
+0050.004 (R) [notice] Cleaning up rubbish...
+0050.074 (R) [notice] Unpacking backup... (backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-uploads.zip, 24.2 MB)
+0050.899 (R) [notice] Unzip progress: 91 out of 91 files (24.6 MB, uploads/wpcode/index.html)
+0050.904 (R) [notice] Moving old data out of the way...
+0050.942 (R) [notice] Moving unpacked backup into place...
+0050.989 (R) [notice] Cleaning up rubbish...
+0051.012 (R) [notice] Unpacking backup... (backup_2024-05-02-1528_AyoubRoudani_9297b261c7c8-others.zip, 0 MB)
+0051.025 (R) [notice] Unzip progress: 5 out of 5 files (56 B, index.php-old)
+0051.041 (R) [notice] Cleaning up rubbish...
+0051.123 (R) [notice] Restore successful!
