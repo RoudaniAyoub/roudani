@@ -1,0 +1,119 @@
+0000.001 (0) Opened log file at time: Mon, 12 Aug 2024 07:29:06 +0000 on http://localhost/roudani
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.5.5 PHP: 8.2.4 (apache2handler, Windows NT HELLOFRIEND 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 48.3M | 50M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 3269.4 MB
+0000.018 (0) Deleting old temporary file: log.6b32e30518dd-browser.txt
+0000.023 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.026 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.036 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1714663702, seconds_ago=8784044)
+0000.041 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-08-12 07:29:06
+0000.044 (0) Semaphore (fd, wp_options) reset to 1
+0000.051 (0) Set semaphore last lock (fd) time to 2024-08-12 07:29:06
+0000.054 (0) Semaphore lock (fd) complete
+0000.066 (0) Backup run: resumption=0, nonce=e2389bb18dde, file_nonce=e2389bb18dde begun at=1723447746 (0s ago), job type=backup
+0000.071 (0) Scheduling a resumption (1) after 300 seconds (1723448046) in case this run gets aborted
+0000.090 (0) Checking if we have a zip executable available
+0000.097 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.099 (0) Creation of backups of directories: beginning
+0000.110 (0) No backup of plugins: excluded by user's options
+0000.115 (0) No backup of themes: excluded by user's options
+0000.118 (0) No backup of uploads: excluded by user's options
+0000.120 (0) No backup of mu-plugins: excluded by user's options
+0000.126 (0) No backup of others: excluded by user's options
+0000.137 (0) Saving backup status to database (elements: 0)
+0000.146 (0) Beginning creation of database dump (WordPress DB)
+0000.149 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.200 (0) Table wp_options: Total expected rows (via COUNT): 303
+0000.205 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.233 (0) Table wp_options: Rows added in this batch (next record: 866): 298 (uncompressed bytes in this segment=718116) in 0.06 seconds
+0000.252 (0) Table wp_options: finishing file(s) (2, 71.2 KB)
+0000.273 (0) Table wp_users: Total expected rows (via COUNT): 1
+0000.276 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.281 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1177) in 0.02 seconds
+0000.296 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0000.319 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0000.325 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.331 (0) Table wp_usermeta: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=2450) in 0.03 seconds
+0000.368 (0) Table wp_usermeta: finishing file(s) (2, 1.3 KB)
+0000.396 (0) Table wp_commentmeta: Total expected rows (via COUNT): 9
+0000.399 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.405 (0) Table wp_commentmeta: Rows added in this batch (next record: 10): 9 (uncompressed bytes in this segment=998) in 0.03 seconds
+0000.419 (0) Table wp_commentmeta: finishing file(s) (2, 0.5 KB)
+0000.443 (0) Table wp_comments: Total expected rows (via COUNT): 10
+0000.447 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.451 (0) Table wp_comments: Rows added in this batch (next record: 12): 10 (uncompressed bytes in this segment=5299) in 0.02 seconds
+0000.463 (0) Table wp_comments: finishing file(s) (2, 1.4 KB)
+0000.487 (0) Table wp_links: Total expected rows (via COUNT): 0
+0000.493 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.02 seconds
+0000.502 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0000.674 (0) Table wp_postmeta: Total expected rows (approximate): 1043
+0000.887 (0) Table wp_postmeta: Rows added in this batch (next record: 1474): 1052 (uncompressed bytes in this segment=3522546) in 0.38 seconds
+0000.907 (0) Table wp_postmeta: finishing file(s) (2, 175.4 KB)
+0001.025 (0) Table wp_posts: Total expected rows (via COUNT): 223
+0001.028 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.080 (0) Table wp_posts: Rows added in this batch (next record: 435): 223 (uncompressed bytes in this segment=2353986) in 0.16 seconds
+0001.100 (0) Table wp_posts: finishing file(s) (2, 43.2 KB)
+0001.128 (0) Table wp_term_relationships: Total expected rows (approximate): 76
+0001.136 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 76 (uncompressed bytes in this segment=1754) in 0.02 seconds
+0001.149 (0) Table wp_term_relationships: finishing file(s) (2, 0.6 KB)
+0001.186 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 29
+0001.189 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.242 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=1816) in 0.08 seconds
+0001.260 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0001.297 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0001.303 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.03 seconds
+0001.347 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0001.373 (0) Table wp_terms: Total expected rows (via COUNT): 29
+0001.375 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.382 (0) Table wp_terms: Rows added in this batch (next record: 29): 29 (uncompressed bytes in this segment=1676) in 0.03 seconds
+0001.393 (0) Table wp_terms: finishing file(s) (2, 0.8 KB)
+0001.419 (0) Table wp_e_events: Total expected rows (via COUNT): 2
+0001.422 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.429 (0) Table wp_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=958) in 0.03 seconds
+0001.444 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0001.473 (0) Table wp_simply_static_pages: Total expected rows (via COUNT): 886
+0001.521 (0) Table wp_simply_static_pages: Rows added in this batch (next record: 886): 886 (uncompressed bytes in this segment=316020) in 0.07 seconds
+0001.534 (0) Table wp_simply_static_pages: finishing file(s) (2, 12.1 KB)
+0001.537 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\roudani/wp-content/updraft/backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db.gz (line 1925, C:\xampp\htdocs\roudani\wp-content\plugins\updraftplus\backup.php)
+0001.543 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_options.table.tmpr867.gz (1/14/fopen): adding to final database dump
+0001.549 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_options.table.gz (2/14/fopen): adding to final database dump
+0001.552 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_users.table.tmpr2.gz (3/14/fopen): adding to final database dump
+0001.556 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_users.table.gz (4/14/fopen): adding to final database dump
+0001.558 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_usermeta.table.tmpr29.gz (5/14/fopen): adding to final database dump
+0001.562 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_usermeta.table.gz (6/14/fopen): adding to final database dump
+0001.564 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_commentmeta.table.tmpr11.gz (7/14/fopen): adding to final database dump
+0001.567 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_commentmeta.table.gz (8/14/fopen): adding to final database dump
+0001.570 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_comments.table.tmpr13.gz (9/14/fopen): adding to final database dump
+0001.590 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_comments.table.gz (10/14/fopen): adding to final database dump
+0001.593 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_links.table.tmpr0.gz (11/14/fopen): adding to final database dump
+0001.596 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_links.table.gz (12/14/fopen): adding to final database dump
+0001.599 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_postmeta.table.tmpr1475.gz (13/14/fopen): adding to final database dump
+0001.616 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_postmeta.table.gz (14/14/fopen): adding to final database dump
+0001.619 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_posts.table.tmpr436.gz (15/14/fopen): adding to final database dump
+0001.631 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_posts.table.gz (16/14/fopen): adding to final database dump
+0001.634 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_term_relationships.table.tmpr100001.gz (17/14/fopen): adding to final database dump
+0001.637 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_term_relationships.table.gz (18/14/fopen): adding to final database dump
+0001.641 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_term_taxonomy.table.tmpr30.gz (19/14/fopen): adding to final database dump
+0001.644 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_term_taxonomy.table.gz (20/14/fopen): adding to final database dump
+0001.648 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_termmeta.table.tmpr0.gz (21/14/fopen): adding to final database dump
+0001.653 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_termmeta.table.gz (22/14/fopen): adding to final database dump
+0001.656 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_terms.table.tmpr30.gz (23/14/fopen): adding to final database dump
+0001.661 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_terms.table.gz (24/14/fopen): adding to final database dump
+0001.664 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_e_events.table.tmpr3.gz (25/14/fopen): adding to final database dump
+0001.667 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_e_events.table.gz (26/14/fopen): adding to final database dump
+0001.687 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_simply_static_pages.table.tmpr887.gz (27/14/fopen): adding to final database dump
+0001.706 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db-table-wp_simply_static_pages.table.gz (28/14/fopen): adding to final database dump
+0001.778 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db.gz: finished writing out complete database file (309.3 KB)
+0001.809 (0) Total database tables backed up: 14 (backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db.gz, size: 316846, sha1: e1d916121f817d3fbae97bd14f8774fb70302b8a, sha256: 09707550017d75434883a3dfde02f71bb47a2c99ed2b811cd40258e66ae78e74)
+0001.822 (0) backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.825 (0) Saving backup history. Total backup size: 309.4 KB
+0001.831 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.838 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.841 (0) No remote despatch: user chose no remote backup service
+0001.844 (0) Recording as successfully uploaded: backup_2024-08-12-0729_AyoubRoudani_e2389bb18dde-db.gz
+0001.849 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0001.851 (0) Resume backup (e2389bb18dde, 0): finish run
+0001.860 (0) Decremented the semaphore (fd) by 1
+0001.865 (0) Semaphore (fd) unlocked
+0001.867 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.876 (0) No email will/can be sent - the user has not configured an email address.
+0001.879 (0) The backup succeeded and is now complete
